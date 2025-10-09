@@ -117,7 +117,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-    min-width: 194px;
+    width: 194px;
     height: 103px;
     object-fit: cover;
     object-position: center;
@@ -173,9 +173,8 @@ ol {
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
-    display: box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
     -webkit-box-orient: vertical;
     box-orient: vertical;
 }
